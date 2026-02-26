@@ -1,0 +1,80 @@
+<section id="portfolio" class="py-5">
+    <div class="container py-5">
+        <div class="text-center mb-5">
+            <h6 class="text-primary fw-bold text-uppercase mb-2">My Work</h6>
+            <h2 class="display-5 fw-bold text-dark">Recent Projects</h2>
+            <div class="mx-auto bg-primary" style="height: 3px; width: 60px;"></div>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+                <div class="portfolio-item position-relative overflow-hidden rounded-4 shadow">
+                    <img src="https://ibrinfotech.b-cdn.net/uploads/ecommerce12.jpg"
+                        class="img-fluid w-100" alt="E-Commerce Product System">
+                    <div class="portfolio-overlay d-flex flex-column align-items-center justify-content-center">
+                        <h4 class="text-white fw-bold">E-Commerce Product System</h4>
+                        <p class="text-light small px-3 text-center">A scalable online shopping product with secure login, product browsing, cart management, and order processing.</p>
+                       <a href="e-commerce.html" class="btn btn-primary">View E-Commerce Product</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="portfolio-item position-relative overflow-hidden rounded-4 shadow">
+                    <img src="https://img.freepik.com/premium-vector/landing-page-movie-booking-website-template_169533-200.jpg"
+                        class="img-fluid w-100" alt="Movie Booking System">
+                    <div class="portfolio-overlay d-flex flex-column align-items-center justify-content-center">
+                        <h4 class="text-white fw-bold">Movie Ticket Booking System</h4>
+                        <p class="text-light small px-3 text-center">A real-time movie ticket booking product that allows users to select movies, choose seats, and confirm bookings easily.</p>
+                        <a href="movie-booking.html" class="btn btn-light btn-sm rounded-pill px-4">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="portfolio-item position-relative overflow-hidden rounded-4 shadow">
+                    <img src="https://www.infomeuae.com/assets/infobooks/assets/images/img/Infobooks_Frame4_steps.webp"
+                        class="img-fluid w-100" alt="Book Management System">
+                    <div class="portfolio-overlay d-flex flex-column align-items-center justify-content-center">
+                        <h4 class="text-white fw-bold">Book Management System</h4>
+                        <p class="text-light small px-3 text-center">A digital product designed to manage books efficiently, allowing users to add, view, search, and organize books while providing admin control over inventory and records.</p>
+                        <a href="book-management.html" class="btn btn-light btn-sm rounded-pill px-4">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    /* Portfolio Hover Effect */
+    .portfolio-item {
+        height: 300px;
+    }
+
+    .portfolio-item img {
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.5s ease;
+    }
+
+    .portfolio-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(13, 110, 253, 0.9);
+        /* Primary color with transparency */
+        opacity: 0;
+        transition: opacity 0.4s ease;
+    }
+
+    .portfolio-item:hover img {
+        transform: scale(1.1);
+    }
+
+    .portfolio-item:hover .portfolio-overlay {
+        opacity: 1;
+    }
+</style>

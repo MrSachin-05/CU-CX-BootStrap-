@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Product</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    <style>
+       .product-img {
+    width: 100%;
+    height: 250px;        /* same height for all */
+    object-fit: cover;    /* prevents stretching */
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect */
+.product-img:hover {
+    transform: scale(1.05);
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+    .product-img {
+        height: 200px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    .product-img {
+        height: 180px;
+    }
+}
+    </style>
+</head>
+<body>
+
+<div class="container py-5">
+
+    <!-- Heading -->
+    <div class="text-center mb-5">
+        <h1 class="fw-bold">E-Commerce Product System</h1>
+        <p class="text-secondary">
+            A scalable online shopping product with secure login, product browsing, cart management, and order processing.
+        </p>
+    </div>
+
+    <!-- Images -->
+    <div class="row g-4">
+
+        <div class="col-md-4">
+            <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d"
+                 class="img-fluid product-img shadow-sm"
+                 alt="Ecommerce UI">
+            <p class="mt-2 text-center text-muted">
+                Modern product browsing interface.
+            </p>
+        </div>
+
+        <div class="col-md-4">
+            <img src="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da"
+                 class="img-fluid product-img shadow-sm"
+                 alt="Shopping cart">
+            <p class="mt-2 text-center text-muted">
+                Secure cart and checkout system.
+            </p>
+        </div>
+
+        <div class="col-md-4">
+            <img src="https://images.unsplash.com/photo-1586880244406-556ebe35f282"
+                 class="img-fluid product-img shadow-sm"
+                 alt="Admin dashboard">
+            <p class="mt-2 text-center text-muted">
+                Admin dashboard for product management.
+            </p>
+        </div>
+
+    </div>
+
+    <!-- Description -->
+    <div class="mt-5">
+        <h4 class="fw-bold">Product Description</h4>
+        <p class="text-secondary">
+            This e-commerce system allows users to browse products, add items to cart, and securely place orders.
+            It includes user authentication, responsive design, and admin controls for managing products,
+            orders, and customers efficiently.
+        </p>
+    </div>
+
+    <!-- Back Button -->
+    <div class="text-center back-btn">
+        <a href="index.html" class="btn btn-primary px-4 py-2">
+            <i class="bi bi-arrow-left"></i> Close Product
+        </a>
+    </div>
+
+</div>
+
+</body>
+</html>

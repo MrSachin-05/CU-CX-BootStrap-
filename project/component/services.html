@@ -1,0 +1,89 @@
+<section id="services" class="py-5 border-top border-bottom">
+<div class="row g-4 text-center">
+    <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm p-4 service-card">
+           <div class="icon-box mb-4 mx-auto bg-primary-subtle rounded-circle d-flex align-items-center justify-content-center">
+                
+                <!-- Cart Icon -->
+                <i class="bi bi-cart text-primary"></i>
+                
+            </div>
+            <h4 class="fw-bold mb-3">Software Product Development</h4>
+            <p class="text-secondary">
+                We build scalable and high-performance software products using modern technologies designed to meet real business needs.
+            </p>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm p-4 service-card">
+            <div class="icon-box mb-4 mx-auto bg-success-subtle rounded-circle d-flex align-items-center justify-content-center"
+                style="width: 80px; height: 80px;">
+                
+                <!-- Laptop Icon -->
+                <i class="bi bi-laptop text-success"></i>
+                
+            </div>
+            <h4 class="fw-bold mb-3">User-Friendly Product Design</h4>
+            <p class="text-secondary">
+                Our products feature responsive and intuitive interfaces that deliver a seamless experience across mobile, tablet, and desktop devices.
+            </p>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm p-4 service-card">
+            <div class="icon-box mb-4 mx-auto bg-warning-subtle rounded-circle d-flex align-items-center justify-content-center"
+                style="width: 80px; height: 80px;">
+                
+                <!-- Lock Icon -->
+                <i class="bi bi-lock text-warning"></i>
+                
+            </div>
+            <h4 class="fw-bold mb-3">Secure and Reliable Systems</h4>
+            <p class="text-secondary">
+                We develop products with strong security, reliable performance, and robust infrastructure to ensure safe and uninterrupted operation.
+            </p>
+        </div>
+    </div>
+</div>
+
+<style>
+    /* Service Card Hover Effect */
+    .service-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .service-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+    }
+
+    /* Bootstrap Icons link ko index.html ke head mein add karna mat bhulna */
+   /* Same size as testimonial avatar */
+.icon-box {
+    width: 50px;
+    height: 50px;
+    font-size: 1.4rem; /* icon inside size */
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+    .icon-box {
+        width: 45px;
+        height: 45px;
+        font-size: 1.2rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    .icon-box {
+        width: 40px;
+        height: 40px;
+        font-size: 1rem;
+    }
+}
+
+</style>
+</section>

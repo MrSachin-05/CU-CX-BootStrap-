@@ -1,0 +1,59 @@
+<section id="hero" class="bg-light py-5 border-bottom">
+    <div class="container py-5">
+        <div class="row align-items-center g-5">
+            <div class="col-lg-6 text-center text-lg-start">
+                <h6 class="text-primary fw-bold text-uppercase mb-3" style="letter-spacing: 2px;">
+                    Welcome to Our Website
+                </h6>
+                <h1 class="display-3 fw-bold text-dark mb-4">
+                    Hi, We are <span class="text-primary">Specifes</span>
+                </h1>
+                <p class="lead text-secondary mb-5">
+                    Discover our wide range of carefully selected products built for quality and performance.
+Each product is created to ensure reliability, efficiency, and complete customer satisfaction.
+                </p>
+                <div class="d-flex flex-column flex-sm-row justify-content-center justify-content-lg-start gap-3">
+                    <a href="#portfolio" class="btn btn-primary btn-lg px-5 py-3 fw-bold shadow">
+                        View Our Products
+                    </a>
+                    <a href="#contact" class="btn btn-outline-dark btn-lg px-5 py-3 fw-bold">
+                        Let's Connect
+                    </a>
+                    
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="position-relative">
+                    <img src="https://cdn.autonomous.ai/production/ecm/250211/office-setup.webp"
+                        alt="Hero Image" class="img-fluid rounded-4 shadow-lg animate-float">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    /* Chota sa animation image ke liye */
+    @keyframes float {
+        0% {
+            transform: translateY(0px);
+        }
+
+        50% {
+            transform: translateY(-20px);
+        }
+
+        100% {
+            transform: translateY(0px);
+        }
+    }
+
+    .animate-float {
+        animation: float 4s ease-in-out infinite;
+    }
+
+    #hero h1 {
+        line-height: 1.2;
+    }
+</style>

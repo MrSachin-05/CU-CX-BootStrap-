@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Ticket Booking System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    <style>
+       .product-img {
+    width: 100%;
+    height: 250px;        /* same height for all */
+    object-fit: cover;    /* prevents stretching */
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect */
+.product-img:hover {
+    transform: scale(1.05);
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+    .product-img {
+        height: 200px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    .product-img {
+        height: 180px;
+    }
+}
+    </style>
+</head>
+<body>
+
+<div class="container py-5">
+
+    <!-- Heading -->
+    <div class="text-center mb-5">
+        <h1 class="fw-bold">Movie Ticket Booking System</h1>
+        <p class="text-secondary">
+            A real-time movie ticket booking product that allows users to select movies,
+            choose seats, and confirm bookings easily.
+        </p>
+    </div>
+
+    <!-- Images Section -->
+    <div class="row g-4">
+
+        <div class="col-md-4">
+            <img src="https://pbs.twimg.com/media/G-EUSyqboAAEcEl.jpg"
+                 class="img-fluid product-img shadow-sm"
+                 alt="Movie selection">
+            <p class="mt-2 text-center text-muted">
+                 Latest Bangers.
+            </p>
+        </div>
+
+        <div class="col-md-4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXy9O9kqfe8Os-9GZrLiZdr4oU1B-hTJgupg&s"
+                 class="img-fluid product-img shadow-sm"
+                 alt="Seat selection">
+            <p class="mt-2 text-center text-muted">
+                Real-time seat selection interface.
+            </p>
+        </div>
+
+        <div class="col-md-4">
+            <img src="https://images.unsplash.com/photo-1524985069026-dd778a71c7b4"
+                 class="img-fluid product-img shadow-sm"
+                 alt="Booking confirmation">
+            <p class="mt-2 text-center text-muted">
+                Secure booking and payment confirmation.
+            </p>
+        </div>
+
+    </div>
+
+    <!-- Detailed Description -->
+    <div class="mt-5">
+        <h4 class="fw-bold">Product Overview</h4>
+        <p class="text-secondary">
+            The Movie Ticket Booking System enables users to explore available movies,
+            check show timings, select preferred seats, and complete bookings securely.
+            It includes user authentication, real-time seat availability updates,
+            and admin controls to manage movies, theatres, and booking records efficiently.
+        </p>
+    </div>
+
+    <!-- Back Button -->
+    <div class="text-center back-btn">
+        <a href="index.html" class="btn btn-primary px-4 py-2">
+            <i class="bi bi-arrow-left"></i> Close Project
+        </a>
+    </div>
+
+</div>
+
+</body>
+</html>
+
